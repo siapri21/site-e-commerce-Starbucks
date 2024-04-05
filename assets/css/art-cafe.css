@@ -13,7 +13,7 @@
     width: 100vw;
     align-items: center;
     padding: 70px 80px ;
-    /* margin-left:96px; */
+   
 }
 
 #lien {
@@ -58,3 +58,77 @@ hr{
 }
 
 
+.image1 {
+    display: flex;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.171);
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .fonds {
+    flex: 1;
+    
+  }
+  
+  .fonds img {
+    max-width: 100%;
+    padding: 20px;
+    height:70vh;
+    width: 600px; 
+    transition: transform 3s ease-in-out;
+  }
+  
+  .text {
+    flex: 1;
+    font-size: 18px; /* decrease the text size */
+  }
+
+
+  
+.cafe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    gap: 20px;
+}
+
+.autres{
+    background: rgba(128, 128, 128, 0.171);
+}
+
+.img-zoom {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+.titre h1{
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+
+  
+  @media (max-width: 850px) {
+    .fonds img {
+     width:600px;
+     height: 200px;
+    }
+
+    .image1{
+        flex-direction: column-reverse;
+        
+    }
+  
+    .text {
+      font-size: 16px;
+       margin-top: 250px;
+    }
+  }
