@@ -40,5 +40,11 @@ section p{
 .menus{
     flex: 1;
 }
+@media screen and (max-width:768px) {
+    .fond{
+        width: 100%;
+        /* margin-left: 90px; */
+    }
+}
     
    
